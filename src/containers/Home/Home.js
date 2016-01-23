@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import CounterButton from 'components/CounterButton/';
-import GithubButton from 'components/GithubButton/';
+import CounterButton from 'components/CounterButton/CounterButton.js';
+import GithubButton from 'components/GithubButton/GithubButton.js';
 import config from '../../config';
 import Helmet from 'react-helmet';
 

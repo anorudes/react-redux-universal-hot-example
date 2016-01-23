@@ -6,7 +6,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import Helmet from 'react-helmet';
 import { isLoaded as isInfoLoaded, load as loadInfo } from 'redux/modules/info';
 import { isLoaded as isAuthLoaded, load as loadAuth, logout } from 'redux/modules/auth';
-import InfoBar from 'components/InfoBar/';
+import InfoBar from 'components/InfoBar/InfoBar.js';
 import { pushState } from 'redux-router';
 import connectData from 'helpers/connectData';
 import config from '../../config';

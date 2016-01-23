@@ -2,14 +2,14 @@ import React from 'react';
 import {IndexRoute, Route} from 'react-router';
 import { isLoaded as isAuthLoaded, load as loadAuth } from 'redux/modules/auth';
 
-import App from './containers/App/';
-import Chat from './containers/Chat/';
-import Home from './containers/Home/';
-import Widgets from './containers/Widgets/';
-import Login from './containers/Login/';
-import LoginSuccess from './containers/LoginSuccess/';
-import Survey from './containers/Survey/';
-import NotFound from './containers/NotFound/';
+import App from './containers/App/App.js';
+import Chat from './containers/Chat/Chat.js';
+import Home from './containers/Home/Home.js';
+import Widgets from './containers/Widgets/Widgets.js';
+import Login from './containers/Login/Login.js';
+import LoginSuccess from './containers/LoginSuccess/LoginSuccess.js';
+import Survey from './containers/Survey/Survey.js';
+import NotFound from './containers/NotFound/NotFound.js';
 
 export default (store) => {
   const requireLogin = (nextState, replaceState, cb) => {
